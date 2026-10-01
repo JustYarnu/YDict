@@ -1,0 +1,121 @@
+{
+    "words" : [
+    {
+        "word": "falluscism",
+        "partOfSpeech": "noun",
+        "syllables": ["fall", "u", "scism"],
+        "pronunciation": "/fɑːˈluːʃɪzəm/",
+        "definition": "The habitual accusation of logical fallacies, sometimes based on superficial resemblance rather than actual logical structure, coupled with a failure to recognize equivalent fallacies in one's own reasoning.",
+        "usage": "Pejorative",
+        "examples": ["I hate it when people on social media employ falluscism because they don't have any expertise in actual rhetoric."],
+        "notes": "Particularly associated with online argumentation.",
+        "related": [],
+        "tags": ["internet", "rhetoric", "pejorative"],
+        "dateCoined": "September 30th, 2026"
+    },
+    {
+        "word":"ganster",
+        "partOfSpeech":"adjective",
+        "syllables":["gan", "ster"],
+        "pronunciation": "/ɡænstər/",
+        "definition":"Worthy of note, as judged by the observer, especially as it happens.",
+        "usage": "informal",
+        "examples":["That dog is pretty gangster."],
+        "notes": "",
+        "related":[],
+        "tags": ["informal"],
+        "dateCoined": "~2023"
+    },
+    {
+        "word":"surtext",
+        "partOfSpeech":"noun",
+        "syllables":["Sur", "text"],
+        "pronunciation": "/ˈsɜːrˌtɛkst/",
+        "definition":"A spontaneous, surreal moment caused by a small deviation from the status quo such that it reveals a dramatically different context in an otherwise familiar situation.",
+        "usage":"informal",
+        "examples":["Was at a LAN party the other day. Having to talk over voice chat whilst the other person is right next to me was such a surtext."],
+        "notes":"",
+        "related":[],
+        "tags":["informal","surreal"],
+        "dateCoined":"~2026"
+    },
+    {
+        "word":"surfocognizant",
+        "partOfSpeech":"noun",
+        "syllables":["Sur", "fo", "cog", "ni", "zant"],
+        "pronunciation":"/ˌsɜːrfəˈkɑːɡnɪzənt/",
+        "definition":"A person who can only analyze superficially. Often evaluating on the most basic level whilst denouncing any deeper analysis.",
+        "usage":"formal",
+        "examples":[],
+        "notes":"Often used in the context of media consumption.",
+        "related":[""],
+        "tags":["formal","media","consumerism"],
+        "dateCoined":"2026"
+    },
+    {
+        "word":"cultural antithesist",
+        "partOfSpeech":"noun",
+        "syllables":["cul", "tur", "al", "an", "tith", "e", "sist"],
+        "pronunciation":"/ˈkʌltʃərəl ˈænθɪˌθiːsɪst/",
+        "definition":"A person whose cultural identity constitutes only the most popular and immediately prevalent products of the prevailing zeitgeist, such that their cultural consumption exhibits little individual differentiation.",
+        "usage":"Insult",
+        "examples":["Had a guy the other day come in with a puffer jacket, three stipes joggings, and nikes, whilst listening to the billboard top 40. That's a cultural antithesist if I ever saw one."],
+        "notes":"",
+        "related":["surfocognizant"],
+        "tags":["insult","culture","consumerism"],
+        "dateCoined":"2026"
+    },
+    {
+         "word":"",
+        "partOfSpeech":"",
+        "syllables":[],
+        "pronunciation":"",
+        "definition":"",
+        "usage":"",
+        "examples":[],
+        "notes":"",
+        "related":[],
+        "tags":[],
+        "dateCoined":""
+    },
+    {
+         "word":"",
+        "partOfSpeech":"",
+        "syllables":[],
+        "pronunciation":"",
+        "definition":"",
+        "usage":"",
+        "examples":[],
+        "notes":"",
+        "related":[],
+        "tags":[],
+        "dateCoined":""
+    },
+    {
+         "word":"",
+        "partOfSpeech":"",
+        "syllables":[],
+        "pronunciation":"",
+        "definition":"",
+        "usage":"",
+        "examples":[],
+        "notes":"",
+        "related":[],
+        "tags":[],
+        "dateCoined":""
+    },
+    {
+         "word":"",
+        "partOfSpeech":"",
+        "syllables":[],
+        "pronunciation":"",
+        "definition":"",
+        "usage":"",
+        "examples":[],
+        "notes":"",
+        "related":[],
+        "tags":[],
+        "dateCoined":""
+    }
+    ]
+}

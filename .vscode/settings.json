@@ -1,0 +1,12 @@
+{
+	"editor.unicodeHighlight.allowedCharacters": {
+		"\u0251": true,
+		"\u02d0": true,
+		"\u02c8": true,
+		"\u0283": true,
+		"\u026a": true,
+		"\u0259": true,
+		"\u0261": true,
+		"\u00e6": true
+	}
+}
