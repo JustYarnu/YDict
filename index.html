@@ -11,17 +11,17 @@
 <body>
 	<header class="site-header">
 		<a class="wordmark" href="./" aria-label="YDict home">Y<span>.</span>DICT</a>
-		<nav id="alphabet-index" class="alphabet-nav" aria-label="Jump to words by first letter"></nav>
-	</header>
-
-	<main class="dictionary">
-		<div class="search-row">
+		<div class="header-search">
 			<label class="search-control" for="dictionary-search">
 				<span>Search dictionary</span>
 				<input id="dictionary-search" type="search" placeholder="Word, definition, example, or tag" autocomplete="off">
 			</label>
-				<div id="active-filters" class="active-filters" aria-live="polite"></div>
+			<div id="active-filters" class="active-filters" aria-live="polite"></div>
 		</div>
+		<nav id="alphabet-index" class="alphabet-nav" aria-label="Jump to words by first letter"></nav>
+	</header>
+
+	<main class="dictionary">
 		<section class="entries-section" aria-labelledby="entries-heading">
 			<div class="section-heading">
 				<h1 id="entries-heading">Dictionary</h1>

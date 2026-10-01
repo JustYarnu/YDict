@@ -121,7 +121,7 @@ function renderAlphabetBookmarks(entries) {
     for (const entry of entries) {
         const firstLetter = entry.word.trim().charAt(0).toLocaleUpperCase();
         if (/^[A-Z]$/.test(firstLetter) && !firstEntryByLetter.has(firstLetter)) {
-            firstEntryByLetter.set(firstLetter, entryIds.get(entry));
+            firstEntryByLetter.set(firstLetter, `letter-${firstLetter.toLocaleLowerCase()}`);
         }
     }
 
@@ -186,9 +186,23 @@ function renderDictionary(query = "") {
             && entry.tags.some((tag) => typeof tag === "string" && normalizeWord(tag) === normalizeWord(activeTag)));
         return hasActiveTag && matchesSearch(entry, query.trim());
     });
-    const renderedEntries = visibleEntries.map((entry) => {
-        return createEntry(entry, entryIds.get(entry));
-    });
+    const renderedEntries = [];
+    let previousLetter = "";
+    for (const entry of visibleEntries) {
+        const initial = entry.word.trim().charAt(0).toLocaleUpperCase();
+        const letter = /^[A-Z]$/.test(initial) ? initial : "#";
+        if (letter !== previousLetter) {
+            const previousEntry = renderedEntries.at(-1);
+            if (previousEntry?.classList.contains("entry")) {
+                previousEntry.classList.add("entry-group-end");
+            }
+            const divider = createTextElement("h2", "letter-divider", letter);
+            divider.id = `letter-${letter === "#" ? "other" : letter.toLocaleLowerCase()}`;
+            renderedEntries.push(divider);
+            previousLetter = letter;
+        }
+        renderedEntries.push(createEntry(entry, entryIds.get(entry)));
+    }
 
     renderAlphabetBookmarks(visibleEntries);
     renderActiveFilters();
