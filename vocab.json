@@ -105,6 +105,19 @@
         "dateCoined":"October 1st, 2026"
     },
     {
+        "word":"transcogitus",
+        "partOfSpeech":"noun",
+        "syllables":["trans","co","go","tus"],
+        "pronunciation":"/trænˈskɒdʒɪtəs/",
+        "definition":"A state in which thoughts flow more freely as a result of decreased brain activity.",
+        "usage":"formal",
+        "examples":["Late at night is often when you're in your most transcogitus state."],
+        "notes":"",
+        "related":[],
+        "tags":["formal","state","cognition"],
+        "dateCoined":"2026"
+    },
+    {
         "word":"",
         "partOfSpeech":"",
         "syllables":[],
